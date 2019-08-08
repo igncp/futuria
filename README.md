@@ -4,7 +4,7 @@ Sample React Native App to test some proof of concepts.
 
 ## Next Steps
 
-- Be able to run React Native Web and deploy it to different devices
+- Try components and APIs in Web and Mobile
 
 ## Notes
 
@@ -18,7 +18,11 @@ Sample React Native App to test some proof of concepts.
 ## Troubleshooting
 
 - Different ADB versions: https://stackoverflow.com/questions/38512025/react-native-run-android-mismatch-version-adb-server-version
-- In android, to open the development menu: `adb shell input keyevent 82`
+- In android
+    - to open the development menu: `adb shell input keyevent 82`
+    - to reload app: `adb shell input text "RR"`
+    - remember to run: `adb reverse tcp:8081 tcp:8081`
+- Remember to connect device to Wifi
 
 ## Resources
 
@@ -29,3 +33,4 @@ Sample React Native App to test some proof of concepts.
 - Setup adb over wifi: https://futurestud.io/tutorials/how-to-debug-your-android-app-over-wifi-without-root
 - Native code: https://facebook.github.io/react-native/docs/native-modules-android
 - Tips and Tricks (IBM): https://developer.ibm.com/recipes/tutorials/react-native-tips-and-tricks/
+- Components And APIs: https://facebook.github.io/react-native/docs/components-and-apis.html
