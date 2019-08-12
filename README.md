@@ -34,3 +34,6 @@ Sample React Native App to test some proof of concepts.
 - Native code: https://facebook.github.io/react-native/docs/native-modules-android
 - Tips and Tricks (IBM): https://developer.ibm.com/recipes/tutorials/react-native-tips-and-tricks/
 - Components And APIs: https://facebook.github.io/react-native/docs/components-and-apis.html
+- ADB cheatsheet: https://devhints.io/adb
+- Android CLI tools: https://developer.android.com/studio/command-line
+- React Native GH Topics: https://github.com/topics/reactnative
