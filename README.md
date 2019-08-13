@@ -37,3 +37,14 @@ Sample React Native App to test some proof of concepts.
 - ADB cheatsheet: https://devhints.io/adb
 - Android CLI tools: https://developer.android.com/studio/command-line
 - React Native GH Topics: https://github.com/topics/reactnative
+- Jetpack: https://developer.android.com/jetpack
+- VSCode for Java: https://code.visualstudio.com/docs/languages/java
+    - Install "Java Extension Pack"
+    - Is not supported: https://github.com/redhat-developer/vscode-java/issues/10
+    - Use Android Studio
+- Android Studio:
+    - Update gradle in project: `./gradlew wrapper --gradle-version 5.5.1 --distribution-type all`
+    - https://stackoverflow.com/questions/55826287/android-studio-this-file-not-part-of-the-project-but-the-project-builds-succes
+    - Restart and wait for the processes to finish
+    - Should have IntelliSense
+    - Show info of symbols: https://stackoverflow.com/questions/16619667/how-can-i-view-method-information-in-android-studio

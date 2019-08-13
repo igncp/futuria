@@ -1,16 +1,13 @@
 import React, { Fragment, useState } from 'react';
+import { NativeModules } from 'react-native';
 
 import { Alert, Picker, FlatList, Text, Button, View } from 'react-native';
 
 const Shell = () => {
   const [language, setLanguage] = useState('js');
   const handleClick = () => {
-    Alert.alert('Hello', 'Foo', [
-      {
-        text: 'Bar',
-        onPress: () => console.log('Baz'),
-      },
-    ]);
+    const { ToastExample } = NativeModules;
+    ToastExample.show('Awesome', ToastExample.SHORT);
   };
 
   return (
@@ -19,7 +16,7 @@ const Shell = () => {
         accessibilityLabel="Learn more about this purple button"
         color="#841584"
         onPress={handleClick}
-        title="Trigger Alert"
+        title="Trigger Toast"
       />
       <FlatList
         data={[{ key: 'a' }, { key: 'b' }]}
