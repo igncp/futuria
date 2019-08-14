@@ -48,3 +48,5 @@ Sample React Native App to test some proof of concepts.
     - Restart and wait for the processes to finish
     - Should have IntelliSense
     - Show info of symbols: https://stackoverflow.com/questions/16619667/how-can-i-view-method-information-in-android-studio
+    - Shortcuts: https://developer.android.com/studio/intro/keyboard-shortcuts.html
+- Awesome: https://github.com/jondot/awesome-react-native
